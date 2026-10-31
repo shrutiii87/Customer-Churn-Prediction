@@ -10,8 +10,15 @@ A telecom company similar to Jio or Airtel is losing paying subscribers every mo
 ## Preprocessing and Class Imbalance
 `customerID` was dropped. `TotalCharges` loaded as text because 11 new customers (tenure = 0) had a blank value; these were converted to NaN and filled with the median. I engineered `tenure_group`, `num_services` and `AutoPay`, mapped binary columns to 1/0, one-hot encoded InternetService, Contract and PaymentMethod, and scaled all features with StandardScaler. Data was split 80/20 with stratification (5,634 train / 1,409 test). SMOTE was applied only to the training set (4,139 vs 1,495 became 4,139 vs 4,139), so the test set stayed untouched. 
 
+---
+
 ## Recommended Model
+
+<img width="1840" height="1344" alt="image" src="https://github.com/user-attachments/assets/a7222cb7-f1d5-438f-a63e-1d62e4a41593" />
+
 I recommend the **Decision Tree** (max_depth = 7). On the test set it has the best accuracy (0.757), precision (0.530) and F1 (0.612), with recall 0.722 and AUC 0.816. Naive Bayes (recall 0.805) and KNN (0.802) catch more churners, but their precision is below 0.49, so over half of flagged customers would be wrong and waste the retention team's roughly 500 calls a day. SVM was the weakest (recall 0.674, AUC 0.783) and took 28.6 seconds to train. The tree is also easy to explain and predicts instantly. If more recall is needed, class_weight='balanced' (recall 0.765) or a lower probability threshold can be used.
+
+---
 
 ## Top 3 Churn Signals and Actions
 1. **Month-to-month contract** — 42.7% churn against 2.8% for two-year contracts. *Action:* offer discounts or perks to move these customers to one- or two-year plans.
