@@ -14,8 +14,9 @@ A telecom company similar to Jio or Airtel is losing paying subscribers every mo
 
 ## Recommended Model
 
-<img width="2048" height="1152" alt="image" src="https://github.com/user-attachments/assets/907ebee8-9c6b-488b-9c35-f7618dbcca43" />
+<img width="2048" height="900" alt="image" src="https://github.com/user-attachments/assets/907ebee8-9c6b-488b-9c35-f7618dbcca43" />
 
+---
 
 I recommend the **Decision Tree** (max_depth = 7). On the test set it has the best accuracy (0.757), precision (0.530) and F1 (0.612), with recall 0.722 and AUC 0.816. Naive Bayes (recall 0.805) and KNN (0.802) catch more churners, but their precision is below 0.49, so over half of flagged customers would be wrong and waste the retention team's roughly 500 calls a day. SVM was the weakest (recall 0.674, AUC 0.783) and took 28.6 seconds to train. The tree is also easy to explain and predicts instantly. If more recall is needed, class_weight='balanced' (recall 0.765) or a lower probability threshold can be used.
 
