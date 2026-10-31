@@ -517,7 +517,7 @@ jupyter notebook CustomerChurn_SupervisedLearning.ipynb
 
 ---
 
-## 🙏 Thank You<img width="1600" height="700" alt="download" src="https://github.com/user-attachments/assets/b6713f45-8438-4aa1-8856-c29cee3dcfaa" />
+## 🙏 Thank You
 
 
 Thank you for taking the time to explore this project!
