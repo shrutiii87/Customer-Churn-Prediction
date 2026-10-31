@@ -10,13 +10,27 @@ This project is built on supervised classification in machine learning. It cover
 
 ## 📄 Problem Statement
 
-You are working as a Junior Data Scientist at a telecom company similar to Jio or Airtel. The company holds a dataset of **7,043 customers** and is losing paying subscribers every month without being able to predict who is about to leave.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Classification** — predict whether a customer will churn (Churn: Yes = 1 churned, No = 0 retained)
+telecom company similar to Jio or Airtel. The company holds a dataset of 7,043 customers and is losing paying subscribers every month without being able to predict who is about to leave.
 
-The task is to explore and clean the data, engineer features, balance the classes, build **KNN, Naive Bayes, SVM and Decision Tree** models, tune them, measure everything with **accuracy, precision, recall, F1, ROC-AUC and training time**, analyse the customers the best model misses, and save the final model as a reusable pipeline.
+**Classification — predict whether a customer will churn (Churn: Yes = 1 churned, No = 0 retained)**
 
+The task is to explore and clean the data, engineer features, balance the classes, build KNN, Naive Bayes, SVM and Decision Tree models, tune them .
 
+measure everything with accuracy, precision, recall, F1, ROC-AUC and training time, analyse the customers the best model misses, and save the final model as a reusable pipeline.
+
+ 
+</td>
+<td width="50%" valign="top">
+
+<img width="1376" height="1824" alt="customer_churn_prediction_final" src="https://github.com/user-attachments/assets/cc131fa7-a62f-492c-a599-658ede6bab93" />
+
+</td>
+</tr>
+</table>
 
 
 ---
