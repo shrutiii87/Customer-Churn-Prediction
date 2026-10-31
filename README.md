@@ -34,31 +34,28 @@ The task is to explore and clean the data, engineer features, balance the classe
 
 ---
 
-## 🛠 Tools Used
+# 🛠 Tools Used
 
 <div>
-
-<img src="https://img.shields.io/badge/Python-8B5CF6?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter%20Notebook-5B21B6?style=for-the-badge&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-A78BFA?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-6D28D9?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-7C3AED?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-7B2CBF?style=for-the-badge&logo=matplotlib&logoColor=white"/>
-<img src="https://img.shields.io/badge/Seaborn-4B1D7F?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/imbalanced--learn-9333EA?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/KNN-6A0DAD?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Naive%20Bayes-9575CD?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/SVM-8E44AD?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Decision%20Tree-7E57C2?style=for-the-badge&logoColor=white"/>
-
+<img src="https://img.shields.io/badge/Python-172B4D?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter%20Notebook-F28C28?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-E8A04A?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-D97726?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-C66A13?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-B87535?style=for-the-badge&logo=matplotlib&logoColor=white"/>
+<img src="https://img.shields.io/badge/Seaborn-8C603D?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/imbalanced--learn-A85D24?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/KNN-F28C28?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Naive%20Bayes-D98232?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/SVM-172B4D?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Decision%20Tree-29466C?style=for-the-badge&logoColor=white"/>
 </div>
-
 ---
 
 ## 🎬 Project Demo
 
 <a href="ADD_YOUR_VIDEO_LINK_HERE">
-  <img src="https://img.shields.io/badge/WATCH%20DEMO-ADD%20YOUR%20LINK-C4B5FD?style=for-the-badge&logo=googledrive&logoColor=white&labelColor=4B1D7F"/>
+<img src="https://img.shields.io/badge/WATCH%20DEMO-F28C28?style=for-the-badge&logo=googledrive&logoColor=white"/>
 </a>
 
 ---
