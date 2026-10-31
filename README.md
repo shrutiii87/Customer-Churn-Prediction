@@ -29,7 +29,8 @@ measure everything with accuracy, precision, recall, F1, ROC-AUC and training ti
 </td>
 <td width="50%" valign="top">
 
-<img width="1376" height="1824" alt="customer_churn_prediction_final" src="https://github.com/user-attachments/assets/cc131fa7-a62f-492c-a599-658ede6bab93" />
+<img width="1376" height="1543" alt="churn_final_no_ml_workflow_padded" src="https://github.com/user-attachments/assets/65b75662-017b-4bcc-bb0d-4f374d2ebdb7" />
+
 
 </td>
 </tr>
