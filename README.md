@@ -1,6 +1,6 @@
 # 📉 Customer Churn Prediction — Multi-Algorithm Classification Showdown
 
-<img width="1600" height="700" alt="download" src="https://github.com/user-attachments/assets/dac1de2b-0315-432b-9a96-2fe10fee78ae" />
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/e46860da-688f-4d88-9e44-082707edac48" />
 
 ---
 
@@ -126,6 +126,7 @@ The task is to explore and clean the data, engineer features, balance the classe
 
 ## 🧪 Part 2: Dataset Loading & Exploratory Data Analysis
 
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/e9765d19-31a5-40f4-b2b0-bab6e244db04" />
 
 
 ### 6. Load the data and inspect shape, info, describe and head.
@@ -216,6 +217,7 @@ seg = df[(df['Contract'] == 'Month-to-month') & (df['MonthlyCharges'] > 70) & (d
 
 ## 🔧 Part 3: Data Preprocessing & Feature Engineering
 
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/8d890a51-0d6c-4e88-8dda-0ac43f0f5f8a" />
 
 
 ### 15. Drop and clean.
@@ -278,6 +280,7 @@ X_train_sm, y_train_sm = smote.fit_resample(X_train, y_train)
 
 ## 🤖 Part 4: Model Building — KNN & Naive Bayes
 
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/6cccfff4-59e3-4285-b2b1-5dd433167a8e" />
 
 
 ### 20. KNN baseline (k = 5).
