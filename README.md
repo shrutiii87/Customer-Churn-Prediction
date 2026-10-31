@@ -54,8 +54,8 @@ The task is to explore and clean the data, engineer features, balance the classe
 
 ## 🎬 Project Demo
 
-<a href="ADD_YOUR_VIDEO_LINK_HERE">
-<img src="https://img.shields.io/badge/WATCH%20DEMO-F28C28?style=for-the-badge&logo=googledrive&logoColor=white"/>
+<a href="https://drive.google.com/file/d/1wjJbPCsCKkx1DvVgVPra_X10lBQl_AaA/view?usp=sharing">
+<img src="https://img.shields.io/badge/WATCH%20VIDEO-F28C28?style=for-the-badge&logo=googledrive&logoColor=white"/>
 </a>
 
 ---
