@@ -1,5 +1,9 @@
 # Customer Churn Prediction — Summary Report
 
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/0414ce86-6afd-409d-9f00-c9c897d94272" />
+
+---
+
 ## Business Problem and Dataset
 A telecom company similar to Jio or Airtel is losing paying subscribers every month and cannot predict who will leave. Acquiring a customer (CAC) costs far more than keeping one, and each churner also removes future revenue (CLV). The goal is to build a model that flags likely churners so the retention team can act early. The data is the IBM Telco Customer Churn dataset: 7,043 customers and 21 columns covering demographics, services, contract, billing and the Churn label. Only 26.5% of customers churned (1,869 vs 5,174), so the data is imbalanced at roughly 3 : 1.
 
