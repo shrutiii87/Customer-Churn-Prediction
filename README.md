@@ -277,7 +277,8 @@ X_train_sm, y_train_sm = smote.fit_resample(X_train, y_train)
 
 ## 🤖 Part 4: Model Building — KNN & Naive Bayes
 
-<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/6cccfff4-59e3-4285-b2b1-5dd433167a8e" />
+<img width="1600" height="600" alt="download" src="https://github.com/user-attachments/assets/660989cb-de35-4a02-a82d-84d3a2f379ce" />
+
 
 
 ### 20. KNN baseline (k = 5).
@@ -326,6 +327,9 @@ print('Actual churn rate:', y.mean())
 ---
 
 ## 🧮 Part 5: Model Building — SVM & Decision Tree
+
+<img width="1600" height="600" alt="download" src="https://github.com/user-attachments/assets/b6b3f219-72f5-46a2-8761-3f02debbbdca" />
+
 
 
 ### 24. SVM (RBF kernel) baseline.
@@ -391,6 +395,7 @@ dt_cw    = DecisionTreeClassifier(max_depth=best_depth, class_weight='balanced',
 
 ## 📊 Part 6: Model Evaluation & Comparison
 
+<img width="1600" height="600" alt="download" src="https://github.com/user-attachments/assets/768836dd-a060-4932-879a-e0cd91395660" />
 
 
 ### 30. Consolidated comparison table (sorted by Recall).
@@ -419,6 +424,9 @@ results_df = results_df.sort_values('Recall', ascending=False)
 ---
 
 ## 🔍 Part 7: Error Analysis & Interpretation
+
+<img width="1600" height="600" alt="download" src="https://github.com/user-attachments/assets/6e5687d9-b2d5-4286-bfe1-3abcd337b670" />
+
 
 
 ### 32. False Negative profile of the best model.
