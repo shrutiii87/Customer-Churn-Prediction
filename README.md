@@ -1,6 +1,5 @@
 # 📉 Customer Churn Prediction — Multi-Algorithm Classification Showdown
 
-<img src="Visuals/19_all_roc_curves.png" width="900" alt="ROC curves of all four models"/>
 
 ---
 
