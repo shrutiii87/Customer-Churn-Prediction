@@ -1,7 +1,5 @@
 # Customer Churn Prediction — Summary Report
 
-<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/0414ce86-6afd-409d-9f00-c9c897d94272" />
-
 ---
 
 ## Business Problem and Dataset
