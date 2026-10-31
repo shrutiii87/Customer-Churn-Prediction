@@ -21,6 +21,12 @@ I recommend the **Decision Tree** (max_depth = 7). On the test set it has the be
 ---
 
 ## Top 3 Churn Signals and Actions
+
+<img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/3daad2bb-4f32-4541-aa29-17e9c63d6420" />
+
+
+---
+
 1. **Month-to-month contract** — 42.7% churn against 2.8% for two-year contracts. *Action:* offer discounts or perks to move these customers to one- or two-year plans.
 2. **Short tenure** — 47.4% churn in the first 12 months, falling to 9.5% after 49 months. *Action:* run onboarding calls and a welcome offer during the first year.
 3. **Fiber optic and high monthly bill** — fiber customers churn 41.9% against 19.0% for DSL, and churners pay a median of 79.65 against 64.43. *Action:* review fiber price and service quality and give loyalty offers to high-bill customers.
