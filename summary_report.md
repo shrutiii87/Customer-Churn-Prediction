@@ -33,7 +33,16 @@ I recommend the **Decision Tree** (max_depth = 7). On the test set it has the be
 
 The combined segment (month-to-month, charges above 70, tenure up to 12 months) churns at 69%, so it should be contacted first. Error analysis shows the model misses 104 of 374 churners, who tend to be longer-tenure, longer-contract customers, so these atypical churners need separate monitoring.
 
+---
+
 ## Next Steps
+
+<img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/6789e07f-f213-4cb4-acef-eac3fcfcec77" />
+
+
+---
+
+
 - **More data:** add usage, complaint, call-centre and network-quality data, plus several months of history, to catch churners that do not fit the typical profile.
 - **Better models:** tune and test gradient boosting or random forest before considering deep learning, since the data is small and tabular. Set the threshold using the cost of a missed churner versus a wasted call.
 - **Real-time scoring API:** serve `churn_model.pkl` behind a simple API and refresh scores regularly. Monitor drift and retrain periodically.
