@@ -1,5 +1,6 @@
 # 📉 Customer Churn Prediction — Multi-Algorithm Classification Showdown
 
+<img width="1600" height="700" alt="download" src="https://github.com/user-attachments/assets/dac1de2b-0315-432b-9a96-2fe10fee78ae" />
 
 ---
 
@@ -9,24 +10,13 @@ This project is built on supervised classification in machine learning. It cover
 
 ## 📄 Problem Statement
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 You are working as a Junior Data Scientist at a telecom company similar to Jio or Airtel. The company holds a dataset of **7,043 customers** and is losing paying subscribers every month without being able to predict who is about to leave.
 
 **Classification** — predict whether a customer will churn (Churn: Yes = 1 churned, No = 0 retained)
 
 The task is to explore and clean the data, engineer features, balance the classes, build **KNN, Naive Bayes, SVM and Decision Tree** models, tune them, measure everything with **accuracy, precision, recall, F1, ROC-AUC and training time**, analyse the customers the best model misses, and save the final model as a reusable pipeline.
 
-</td>
-<td width="50%" valign="top">
 
-<img src="Visuals/04_churn_by_contract.png" alt="Churn rate by contract type"/>
-
-</td>
-</tr>
-</table>
 
 
 ---
@@ -136,7 +126,6 @@ The task is to explore and clean the data, engineer features, balance the classe
 
 ## 🧪 Part 2: Dataset Loading & Exploratory Data Analysis
 
-<img src="Visuals/02_histograms.png" width="1200" alt="Histograms of tenure, MonthlyCharges and TotalCharges"/>
 
 
 ### 6. Load the data and inspect shape, info, describe and head.
@@ -174,7 +163,6 @@ print(df['Churn'].value_counts(normalize=True) * 100)
 
 ### 9. Univariate analysis — target, numeric histograms and key categorical features.
 
-<img src="Visuals/03_categorical_countplots.png" width="900" alt="Contract, InternetService and PaymentMethod countplots"/>
 
 🎯 Insight: Countplot, histograms for tenure / MonthlyCharges / TotalCharges, and countplots for Contract, InternetService and PaymentMethod were plotted to understand distributions before modelling.
 
@@ -228,7 +216,6 @@ seg = df[(df['Contract'] == 'Month-to-month') & (df['MonthlyCharges'] > 70) & (d
 
 ## 🔧 Part 3: Data Preprocessing & Feature Engineering
 
-<img src="Visuals/01_churn_countplot.png" width="600" alt="Churn class balance"/>
 
 
 ### 15. Drop and clean.
@@ -291,7 +278,6 @@ X_train_sm, y_train_sm = smote.fit_resample(X_train, y_train)
 
 ## 🤖 Part 4: Model Building — KNN & Naive Bayes
 
-<img src="Visuals/08_knn_k_vs_f1.png" width="600" alt="KNN k vs F1 score"/>
 
 
 ### 20. KNN baseline (k = 5).
@@ -340,8 +326,6 @@ print('Actual churn rate:', y.mean())
 ---
 
 ## 🧮 Part 5: Model Building — SVM & Decision Tree
-
-<img src="Visuals/17_dt_depth_vs_f1.png" width="600" alt="Decision tree depth vs F1"/>
 
 
 ### 24. SVM (RBF kernel) baseline.
@@ -407,7 +391,6 @@ dt_cw    = DecisionTreeClassifier(max_depth=best_depth, class_weight='balanced',
 
 ## 📊 Part 6: Model Evaluation & Comparison
 
-<img src="Visuals/20_precision_vs_recall.png" width="700" alt="Precision vs Recall for all four models"/>
 
 
 ### 30. Consolidated comparison table (sorted by Recall).
@@ -436,8 +419,6 @@ results_df = results_df.sort_values('Recall', ascending=False)
 ---
 
 ## 🔍 Part 7: Error Analysis & Interpretation
-
-<img src="Visuals/18_dt_feature_importance.png" width="700" alt="Top 15 feature importances"/>
 
 
 ### 32. False Negative profile of the best model.
@@ -499,13 +480,6 @@ label = loaded_model.predict(sample)
 
 ---
 
-### 📊 All Graphs :-
-
-<img src="Visuals/19_all_roc_curves.png" width="480"/> <img src="Visuals/16_decision_tree_plot.png" width="480"/>
-<img src="Visuals/05_churn_by_tenure.png" width="480"/> <img src="Visuals/07_correlation_heatmap.png" width="480"/>
-
----
-
 ## 📂 Project Workflow
 
 1. Problem Framing → Churn, CAC vs CLV, confusion matrix costs, class imbalance, the four algorithms, precision vs recall
@@ -543,7 +517,8 @@ jupyter notebook CustomerChurn_SupervisedLearning.ipynb
 
 ---
 
-## 🙏 Thank You
+## 🙏 Thank You<img width="1600" height="700" alt="download" src="https://github.com/user-attachments/assets/b6713f45-8438-4aa1-8856-c29cee3dcfaa" />
+
 
 Thank you for taking the time to explore this project!
 Your feedback, suggestions, and contributions are always welcome.
