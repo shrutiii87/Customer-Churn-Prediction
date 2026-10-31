@@ -1,6 +1,6 @@
 # 📉 Customer Churn Prediction — Multi-Algorithm Classification Showdown
 
-<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/e46860da-688f-4d88-9e44-082707edac48" />
+<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/0414ce86-6afd-409d-9f00-c9c897d94272" />
 
 ---
 
