@@ -27,7 +27,7 @@ measure everything with accuracy, precision, recall, F1, ROC-AUC and training ti
 </td>
 <td width="50%" valign="top">
 
-<img width="1397" height="1650" alt="churn_final_no_ml_workflow_padded" src="https://github.com/user-attachments/assets/65b75662-017b-4bcc-bb0d-4f374d2ebdb7" />
+<img width="1397" height="1655" alt="churn_final_no_ml_workflow_padded" src="https://github.com/user-attachments/assets/65b75662-017b-4bcc-bb0d-4f374d2ebdb7" />
 
 
 </td>
