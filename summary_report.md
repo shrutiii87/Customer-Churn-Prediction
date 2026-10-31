@@ -2,11 +2,6 @@
 
 ---
 
-<img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/0414ce86-6afd-409d-9f00-c9c897d94272" />
-
-
----
-
 ## Business Problem and Dataset
 
 <img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/06fb0baf-ef9c-4d1d-8356-a53a2d01d5ab" />
