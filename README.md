@@ -457,6 +457,9 @@ churners = X_test_raw[y_test.values == 1]
 
 ## 🚀 Part 8: Pipeline & Deployment
 
+<img width="1600" height="600" alt="download" src="https://github.com/user-attachments/assets/9ad53677-cab7-4438-8153-b9d57e8a9b19" />
+
+
 ### 34. Save the final pipeline.
 
 ```python
