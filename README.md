@@ -107,38 +107,6 @@ measure everything with accuracy, precision, recall, F1, ROC-AUC and training ti
 
 ---
 
-## 🧠 Part 1: Problem Framing & Theory Notes
-
-### 1. What is Customer Churn? Why is predicting churn valuable (CAC vs CLV)?
-
-🎯 Insight: Churn means a paying customer leaves the service. Getting a new customer (CAC — Customer Acquisition Cost) is much more expensive than keeping an old one, and every churned customer also takes away future revenue (CLV — Customer Lifetime Value). If Jio/Airtel can predict who will leave, the retention team can give offers in time and protect the revenue.
-
----
-
-### 2. Confusion Matrix — TP, TN, FP, FN and their business cost.
-
-🎯 Insight: TP = churned and predicted churn, TN = stayed and predicted stay, FP = stayed but predicted churn, FN = churned but predicted stay. A False Negative is costly because we lose the customer and his CLV without ever trying to save him. A False Positive is cheap, we only waste a small offer or call on a customer who would stay anyway.
-
----
-
-### 3. Class Imbalance and SMOTE.
-
-🎯 Insight: Class imbalance means one class has far less data than the other, so the model becomes biased to the majority class. The Telco data is imbalanced (26.5% churned vs 73.5% stayed). SMOTE creates synthetic minority samples using nearest neighbours so both classes become equal in the training data.
-
----
-
-### 4. How KNN, Naive Bayes, SVM and Decision Tree work.
-
-🎯 Insight: KNN takes the majority class among the k nearest customers. Naive Bayes uses Bayes theorem with an independence assumption. SVM finds the maximum-margin boundary (non-linear with the RBF kernel). Decision Tree keeps splitting data with yes/no questions on features until each leaf gives a class.
-
----
-
-### 5. Precision vs Recall for churn.
-
-🎯 Insight: Precision matters more when the retention action is costly or calling capacity is limited, for example if the team can call only ~500 customers a day or gives a big discount, wrongly flagged loyal customers waste money and call slots.
-
----
-
 ## 🧪 Part 2: Dataset Loading & Exploratory Data Analysis
 
 <img width="1600" height="560" alt="download" src="https://github.com/user-attachments/assets/e9765d19-31a5-40f4-b2b0-bab6e244db04" />
