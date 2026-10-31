@@ -16,10 +16,6 @@ This project is built on supervised classification in machine learning. It cover
 <table>
 <tr>
 <td width="50%" valign="top">
-
-
-### Customer Churn Prediction — Multi-Algorithm Classification Showdown
-
 telecom company similar to Jio or Airtel. The company holds a dataset of 7,043 customers and is losing paying subscribers every month without being able to predict who is about to leave.
 
 **Classification — predict whether a customer will churn (Churn: Yes = 1 churned, No = 0 retained)**
