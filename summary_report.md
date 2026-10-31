@@ -5,7 +5,15 @@
 ## Business Problem and Dataset
 A telecom company similar to Jio or Airtel is losing paying subscribers every month and cannot predict who will leave. Acquiring a customer (CAC) costs far more than keeping one, and each churner also removes future revenue (CLV). The goal is to build a model that flags likely churners so the retention team can act early. The data is the IBM Telco Customer Churn dataset: 7,043 customers and 21 columns covering demographics, services, contract, billing and the Churn label. Only 26.5% of customers churned (1,869 vs 5,174), so the data is imbalanced at roughly 3 : 1.
 
+---
+
 ## Preprocessing and Class Imbalance
+
+
+<img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/7bf97d63-90d1-4be4-b8b1-a67bb74bf82d" />
+
+---
+
 `customerID` was dropped. `TotalCharges` loaded as text because 11 new customers (tenure = 0) had a blank value; these were converted to NaN and filled with the median. I engineered `tenure_group`, `num_services` and `AutoPay`, mapped binary columns to 1/0, one-hot encoded InternetService, Contract and PaymentMethod, and scaled all features with StandardScaler. Data was split 80/20 with stratification (5,634 train / 1,409 test). SMOTE was applied only to the training set (4,139 vs 1,495 became 4,139 vs 4,139), so the test set stayed untouched. 
 
 ---
