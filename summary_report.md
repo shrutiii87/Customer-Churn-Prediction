@@ -12,7 +12,7 @@ A telecom company similar to Jio or Airtel is losing paying subscribers every mo
 
 ## Recommended Model
 
-
+<img width="1600" height="560" alt="image" src="https://github.com/user-attachments/assets/16286567-72c9-47ab-a0d5-141683715fe8" />
 
 ---
 
