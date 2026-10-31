@@ -21,7 +21,6 @@ telecom company similar to Jio or Airtel. The company holds a dataset of 7,043 c
 **Classification — predict whether a customer will churn (Churn: Yes = 1 churned, No = 0 retained)**
 
 The task is to explore and clean the data, engineer features, balance the classes, build KNN, Naive Bayes, SVM and Decision Tree models, tune them .
-
 measure everything with accuracy, precision, recall, F1, ROC-AUC and training time, analyse the customers the best model misses, and save the final model as a reusable pipeline.
 
  
